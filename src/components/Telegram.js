@@ -1,12 +1,14 @@
-import React from 'react'
-import Sidebar from './Sidebar'
+import React from "react";
+import Sidebar from "./Sidebar";
+import Thread from "./Thread";
+import "./Telegram.css";
 const Telegram = () => {
-    return (
-        <div className="telegram">
-            Telegram
-            <Sidebar/>
-        </div>
-    )
-}
+  return (
+    <div className="telegram">
+      <Sidebar />
+      <Thread />
+    </div>
+  );
+};
 
-export default Telegram
+export default Telegram;
